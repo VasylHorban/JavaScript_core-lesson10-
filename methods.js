@@ -16,7 +16,7 @@ console.log(students);
 
 
 //filter by age and gender
-let filterStudents = students.filter((value) => value.age < 21 && value.sex == 'male');
+let filterStudents = students.filter((obj) => obj.age < 21 && obj.sex == 'male');
 console.log(filterStudents);
 
 
